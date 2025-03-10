@@ -30,11 +30,11 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Print working directory
       run: |
-        echo "-----------------------"
+        echo "------------------------"
         cd nyc_parking_violations
         ls -la
         pwd
-        echo "-----------------------"
+        echo "------------------------"
     - name: Run dbt Prod
       run: |
         dbt debug
