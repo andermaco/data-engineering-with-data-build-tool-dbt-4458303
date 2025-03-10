@@ -3,9 +3,9 @@ name: run_dbt_prod
 
 on:
   push:
-    branches: [ "main", "feature/own_dev" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "main", "feature/own_dev" ]
+    branches: [ "main" ]
   # schedule:
   #   - cron: '0 8 * * *'
 
