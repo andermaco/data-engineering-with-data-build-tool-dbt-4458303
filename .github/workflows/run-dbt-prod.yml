@@ -31,6 +31,7 @@ jobs:
     - name: Print working directory
       run: |
         echo "-----------------------"
+        cd nyc_parking_violations
         ls -la
         pwd
         echo "-----------------------"
