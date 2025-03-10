@@ -1,0 +1,26 @@
+# dbt specific
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Compiled python files
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+.env.*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Local development files
+profiles.yml
